@@ -1,0 +1,21 @@
+{
+    "normal": {
+        "added": [
+            "renew_days_no_term",
+            "renew_weeks_no_term",
+            "renew_months_no_term",
+            "renew_years_no_term"
+        ],
+        "edited": [
+            "maxmind_id",
+            "acp_notification_nexus_maxmind_body",
+            "acp_notification_nexus_maxmind_sub"
+        ],
+        "removed": []
+    },
+    "js": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

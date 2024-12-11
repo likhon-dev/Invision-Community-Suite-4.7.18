@@ -1,0 +1,108 @@
+{
+    "1": {
+        "method": "createTable",
+        "params": [
+            {
+                "name": "core_login_failures",
+                "columns": {
+                    "login_id": {
+                        "name": "login_id",
+                        "type": "BIGINT",
+                        "length": "20",
+                        "decimals": null,
+                        "values": null,
+                        "allow_null": false,
+                        "default": 0,
+                        "comment": "ID Number",
+                        "unsigned": true,
+                        "auto_increment": true
+                    },
+                    "login_member_id": {
+                        "name": "login_member_id",
+                        "type": "BIGINT",
+                        "length": null,
+                        "decimals": null,
+                        "values": null,
+                        "allow_null": true,
+                        "default": null,
+                        "comment": "",
+                        "unsigned": false,
+                        "auto_increment": false
+                    },
+                    "login_date": {
+                        "name": "login_date",
+                        "type": "INT",
+                        "length": null,
+                        "decimals": null,
+                        "values": null,
+                        "allow_null": false,
+                        "default": 0,
+                        "comment": "",
+                        "unsigned": false,
+                        "auto_increment": false
+                    },
+                    "login_email": {
+                        "name": "login_email",
+                        "type": "VARCHAR",
+                        "length": 150,
+                        "decimals": null,
+                        "values": null,
+                        "allow_null": true,
+                        "default": null,
+                        "comment": "",
+                        "unsigned": false,
+                        "auto_increment": false
+                    },
+                    "login_ip_address": {
+                        "name": "login_ip_address",
+                        "type": "VARCHAR",
+                        "length": 46,
+                        "decimals": null,
+                        "values": null,
+                        "allow_null": false,
+                        "default": "::1",
+                        "comment": "",
+                        "unsigned": false,
+                        "auto_increment": false
+                    }
+                },
+                "indexes": {
+                    "PRIMARY": {
+                        "type": "primary",
+                        "name": "PRIMARY",
+                        "columns": [
+                            "login_id"
+                        ],
+                        "length": [
+                            null
+                        ]
+                    },
+                    "lookup": {
+                        "type": "key",
+                        "name": "lookup",
+                        "columns": [
+                            "login_date",
+                            "login_ip_address",
+                            "login_member_id"
+                        ],
+                        "length": [
+                            null,
+                            null,
+                            null
+                        ]
+                    },
+                    "member": {
+                        "type": "key",
+                        "name": "member",
+                        "columns": [
+                            "login_member_id"
+                        ],
+                        "length": [
+                            null
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

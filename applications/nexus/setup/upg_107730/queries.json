@@ -1,0 +1,20 @@
+{
+    "1": {
+        "method": "addIndex",
+        "params": [
+            "nexus_transactions",
+            {
+                "type": "key",
+                "name": "transaction-lookup",
+                "columns": [
+                    "t_gw_id",
+                    "t_method"
+                ],
+                "length": [
+                    190,
+                    null
+                ]
+            }
+        ]
+    }
+}

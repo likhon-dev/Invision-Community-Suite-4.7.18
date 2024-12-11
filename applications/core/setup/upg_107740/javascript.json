@@ -1,0 +1,35 @@
+{
+    "files": {
+        "added": [
+            "global\/framework\/common\/utils\/ips.utils.history.js"
+        ],
+        "edited": [
+            "global\/framework\/common\/ui\/ips.ui.addressForm.js",
+            "global\/framework\/common\/ui\/ips.ui.map.js",
+            "global\/framework\/common\/ui\/ips.ui.tabbar.js",
+            "core\/front\/controllers\/core\/ips.core.articlePages.js",
+            "global\/front\/controllers\/core\/ips.core.commentFeed.js",
+            "core\/global\/controllers\/core\/ips.core.coverPhoto.js",
+            "core\/global\/controllers\/core\/ips.core.genericTable.js",
+            "core\/global\/controllers\/core\/ips.core.googlemap.js",
+            "core\/global\/controllers\/core\/ips.core.table.js",
+            "core\/front\/controllers\/messages\/ips.messages.list.js",
+            "core\/front\/controllers\/messages\/ips.messages.main.js",
+            "core\/front\/controllers\/messages\/ips.messages.view.js",
+            "core\/front\/controllers\/profile\/ips.profile.main.js",
+            "core\/front\/controllers\/search\/ips.search.main.js",
+            "core\/front\/controllers\/streams\/ips.streams.main.js",
+            "core\/admin\/controllers\/system\/ips.system.themeHookEditor.js"
+        ],
+        "removed": [
+            "global\/library\/jquery\/jquery.history.js"
+        ]
+    },
+    "orders": {
+        "added": [],
+        "edited": [
+            "global\/\/dev\/js\/\/library\/\/jquery"
+        ],
+        "removed": []
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "added": [
+        "contact_email_verify",
+        "countries_block",
+        "countries_moderate",
+        "hive_content",
+        "hive_enabled",
+        "hive_key",
+        "hive_site_id",
+        "hive_site_key",
+        "spam_geo_settings",
+        "spam_service_disposable"
+    ],
+    "edited": [],
+    "removed": []
+}

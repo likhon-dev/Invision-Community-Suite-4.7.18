@@ -1,0 +1,20 @@
+{
+    "files": {
+        "added": [],
+        "edited": [
+            "global\/library\/app.js",
+            "global\/framework\/common\/ips.controller.js",
+            "global\/framework\/common\/ui\/ips.ui.tabbar.js",
+            "global\/framework\/common\/utils\/ips.utils.history.js",
+            "core\/global\/controllers\/core\/ips.core.table.js",
+            "core\/front\/controllers\/profile\/ips.profile.main.js",
+            "global\/front\/mixins\/ips.core.table.js"
+        ],
+        "removed": []
+    },
+    "orders": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

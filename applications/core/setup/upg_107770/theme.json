@@ -1,0 +1,32 @@
+{
+    "html": {
+        "added": [],
+        "edited": [
+            "front\/global\/follow",
+            "front\/search\/hints",
+            "front\/search\/resultStream",
+            "front\/system\/followForm"
+        ],
+        "removed": [
+            "front\/hive\/follow",
+            "front\/hive\/followButton",
+            "front\/hive\/signin",
+            "admin\/hive\/wrapper",
+            "front\/widgets\/communityhive"
+        ]
+    },
+    "css": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    },
+    "resources": {
+        "added": [],
+        "edited": [],
+        "removed": [
+            "admin\/enhancements\/communityhive.svg",
+            "front\/hive\/communityhive.svg",
+            "front\/hive\/logo_on_white_background.png"
+        ]
+    }
+}

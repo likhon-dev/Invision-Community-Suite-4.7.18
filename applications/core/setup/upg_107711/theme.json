@@ -1,0 +1,26 @@
+{
+    "html": {
+        "added": [
+            "admin\/spam\/spamQandASettings"
+        ],
+        "edited": [
+            "front\/global\/guestTermsBar",
+            "front\/hive\/follow",
+            "admin\/hive\/wrapper",
+            "admin\/spam\/spamGeoSettings",
+            "front\/system\/followForm",
+            "front\/widgets\/communityhive"
+        ],
+        "removed": []
+    },
+    "css": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    },
+    "resources": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "1": {
+        "method": "addIndex",
+        "params": [
+            "gallery_images",
+            {
+                "type": "key",
+                "name": "image_file_size",
+                "columns": [
+                    "image_file_size"
+                ],
+                "length": [
+                    null
+                ]
+            }
+        ]
+    },
+    "2": {
+        "method": "addIndex",
+        "params": [
+            "gallery_images",
+            {
+                "type": "key",
+                "name": "image_views",
+                "columns": [
+                    "image_views"
+                ],
+                "length": [
+                    null
+                ]
+            }
+        ]
+    }
+}

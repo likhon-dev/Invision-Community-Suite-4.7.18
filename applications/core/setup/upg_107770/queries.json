@@ -1,0 +1,82 @@
+{
+    "1": {
+        "method": "addColumn",
+        "params": [
+            "core_validating",
+            {
+                "name": "security_key",
+                "type": "TEXT",
+                "length": null,
+                "decimals": null,
+                "values": null,
+                "allow_null": true,
+                "default": null,
+                "comment": "",
+                "unsigned": false,
+                "auto_increment": false
+            }
+        ]
+    },
+    "2": {
+        "method": "addIndex",
+        "params": [
+            "core_api_logs",
+            {
+                "type": "key",
+                "name": "cleanup",
+                "columns": [
+                    "response_code",
+                    "date"
+                ],
+                "length": [
+                    null,
+                    null
+                ]
+            }
+        ]
+    },
+    "3": {
+        "method": "changeIndex",
+        "params": [
+            "core_member_history",
+            "log_date",
+            {
+                "type": "key",
+                "name": "log_date",
+                "columns": [
+                    "log_date",
+                    "log_app"
+                ],
+                "length": [
+                    null,
+                    null
+                ]
+            }
+        ]
+    },
+    "4": {
+        "method": "delete",
+        "params": [
+            "core_sys_conf_settings",
+            "conf_key IN ('hive_enabled', 'hive_key', 'hive_site_id', 'hive_site_key','hive_content')"
+        ]
+    },
+    "5": {
+        "method": "delete",
+        "params": [
+            "core_modules",
+            [
+                "sys_module_application=? AND sys_module_key=?",
+                "core",
+                "hive"
+            ]
+        ]
+    },
+    "6": {
+        "method": "dropTable",
+        "params": [
+            "core_hive_subscribers",
+            true
+        ]
+    }
+}

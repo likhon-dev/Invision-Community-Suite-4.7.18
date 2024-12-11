@@ -1,0 +1,156 @@
+{
+    "1": {
+        "method": "update",
+        "params": [
+            "core_share_links",
+            {
+                "share_title": "X",
+                "share_key": "x"
+            },
+            [
+                "share_key=?",
+                "twitter"
+            ]
+        ]
+    },
+    "2": {
+        "method": "changeIndex",
+        "params": [
+            "core_clubs",
+            "location_lat",
+            {
+                "type": "key",
+                "name": "location_lat",
+                "columns": [
+                    "location_lat",
+                    "location_long"
+                ],
+                "length": [
+                    null,
+                    null
+                ]
+            }
+        ]
+    },
+    "3": {
+        "method": "addIndex",
+        "params": [
+            "core_clubs",
+            {
+                "type": "key",
+                "name": "type",
+                "columns": [
+                    "type"
+                ],
+                "length": [
+                    null
+                ]
+            }
+        ]
+    },
+    "4": {
+        "method": "addIndex",
+        "params": [
+            "core_clubs",
+            {
+                "type": "key",
+                "name": "name",
+                "columns": [
+                    "name"
+                ],
+                "length": [
+                    250
+                ]
+            }
+        ]
+    },
+    "5": {
+        "method": "addIndex",
+        "params": [
+            "core_clubs",
+            {
+                "type": "key",
+                "name": "content",
+                "columns": [
+                    "content"
+                ],
+                "length": [
+                    null
+                ]
+            }
+        ]
+    },
+    "6": {
+        "method": "addIndex",
+        "params": [
+            "core_clubs",
+            {
+                "type": "key",
+                "name": "last_activity",
+                "columns": [
+                    "last_activity"
+                ],
+                "length": [
+                    null
+                ]
+            }
+        ]
+    },
+    "7": {
+        "method": "delete",
+        "params": [
+            "core_modules",
+            [
+                "sys_module_application=? AND sys_module_key=?",
+                "core",
+                "marketplace"
+            ]
+        ]
+    },
+    "8": {
+        "method": "delete",
+        "params": [
+            "core_sys_conf_settings",
+            [
+                "conf_app=? AND conf_key=?",
+                "core",
+                "mp_onboard_complete"
+            ]
+        ]
+    },
+    "9": {
+        "method": "dropTable",
+        "params": [
+            "core_marketplace_tokens",
+            true
+        ]
+    },
+    "10": {
+        "method": "dropColumn",
+        "params": [
+            "core_applications",
+            "app_marketplace_id"
+        ]
+    },
+    "11": {
+        "method": "dropColumn",
+        "params": [
+            "core_plugins",
+            "plugin_marketplace_id"
+        ]
+    },
+    "12": {
+        "method": "dropColumn",
+        "params": [
+            "core_themes",
+            "set_marketplace_id"
+        ]
+    },
+    "13": {
+        "method": "dropColumn",
+        "params": [
+            "core_sys_lang",
+            "lang_marketplace_id"
+        ]
+    }
+}

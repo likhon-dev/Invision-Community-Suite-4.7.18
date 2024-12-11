@@ -1,0 +1,21 @@
+{
+    "1": {
+        "method": "changeColumn",
+        "params": [
+            "gallery_images",
+            "image_file_size",
+            {
+                "name": "image_file_size",
+                "type": "BIGINT",
+                "length": 20,
+                "decimals": null,
+                "values": [],
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": false,
+                "auto_increment": false
+            }
+        ]
+    }
+}

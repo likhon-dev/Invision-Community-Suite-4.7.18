@@ -1,0 +1,2 @@
+This software is bound by the Mozilla Public License Version 1.1
+(https://www.mozilla.org/en-US/MPL/1.1/)

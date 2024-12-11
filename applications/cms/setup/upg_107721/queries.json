@@ -1,0 +1,12 @@
+{
+    "1": {
+        "method": "update",
+        "params": [
+            "cms_databases",
+            {
+                "database_comments_perpage": 0
+            },
+            "database_comments_perpage=-1"
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "normal": {
+        "added": [
+            "solved_stats_from_cutoff",
+            "solved_stats_from_cutoff_desc",
+            "stats_topics_tab_noposts",
+            "topics_noposts_tid",
+            "topics_noposts_title",
+            "topics_noposts_state",
+            "topics_noposts_start_date",
+            "topics_noposts_starter_id",
+            "topics_noposts_views",
+            "topics_noposts_forum_id",
+            "topics_noposts_approved"
+        ],
+        "edited": [],
+        "removed": []
+    },
+    "js": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

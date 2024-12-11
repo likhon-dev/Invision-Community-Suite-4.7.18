@@ -1,0 +1,16 @@
+{
+    "normal": {
+        "added": [
+            "database_comments_perpage",
+            "database_comments_perpage_desc",
+            "database_comments_perpage_inherit"
+        ],
+        "edited": [],
+        "removed": []
+    },
+    "js": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

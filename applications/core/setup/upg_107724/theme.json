@@ -1,0 +1,22 @@
+{
+    "html": {
+        "added": [],
+        "edited": [
+            "front\/global\/siteSocialProfiles",
+            "front\/sharelinks\/x"
+        ],
+        "removed": []
+    },
+    "css": {
+        "added": [],
+        "edited": [
+            "front\/core.css"
+        ],
+        "removed": []
+    },
+    "resources": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

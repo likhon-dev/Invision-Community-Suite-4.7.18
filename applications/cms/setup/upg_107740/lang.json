@@ -1,0 +1,20 @@
+{
+    "normal": {
+        "added": [
+            "club_category_meta_index",
+            "club_category_meta_index_desc",
+            "database_allow_club_categories",
+            "database_allow_club_categories_desc",
+            "database_allow_club_categories_yes",
+            "database_allow_club_categories_no",
+            "modlog__cms_revision_restored_stats"
+        ],
+        "edited": [],
+        "removed": []
+    },
+    "js": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

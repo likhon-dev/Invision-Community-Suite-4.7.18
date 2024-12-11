@@ -1,0 +1,23 @@
+{
+    "normal": {
+        "added": [
+            "contact_form_referrer",
+            "contact_form_referrer_plain",
+            "grouppromotion_error_group",
+            "grouppromotion_error_group_desc",
+            "registration_default_group_info"
+        ],
+        "edited": [
+            "block_relatedContent_desc",
+            "rss_import_invalid"
+        ],
+        "removed": []
+    },
+    "js": {
+        "added": [
+            "toggle_quote"
+        ],
+        "edited": [],
+        "removed": []
+    }
+}

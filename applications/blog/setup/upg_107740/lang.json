@@ -1,0 +1,14 @@
+{
+    "normal": {
+        "added": [
+            "modlog__action_delete_blog_stats"
+        ],
+        "edited": [],
+        "removed": []
+    },
+    "js": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "added": [],
+    "edited": [
+        "registration_validate",
+        "email_change",
+        "lost_password_init",
+        "mfaRecovery"
+    ],
+    "removed": []
+}

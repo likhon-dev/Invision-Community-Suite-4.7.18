@@ -1,0 +1,29 @@
+{
+    "html": {
+        "added": [],
+        "edited": [
+            "front\/clubs\/header",
+            "front\/clubs\/members",
+            "front\/clubs\/view",
+            "global\/forms\/autocomplete",
+            "global\/forms\/codemirror",
+            "global\/forms\/date",
+            "global\/forms\/upload",
+            "global\/global\/includeMeta",
+            "front\/widgets\/whosOnline"
+        ],
+        "removed": []
+    },
+    "css": {
+        "added": [],
+        "edited": [
+            "global\/framework\/layout.css"
+        ],
+        "removed": []
+    },
+    "resources": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

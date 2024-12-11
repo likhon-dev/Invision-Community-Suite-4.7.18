@@ -1,0 +1,27 @@
+{
+    "normal": {
+        "added": [
+            "chart_groups",
+            "stats_topics_tab_groups",
+            "stats_topics_tab_unsolved",
+            "menu__forums_stats_solvers",
+            "top_solvers",
+            "top_solvers_name",
+            "top_solvers_count",
+            "top_solvers_solved_date",
+            "top_solvers_date",
+            "top_solvers_member_group_id"
+        ],
+        "edited": [
+            "modlog__saved_action",
+            "modlog__unarchived_topic",
+            "modlog__removed_archive_exclude_topic"
+        ],
+        "removed": []
+    },
+    "js": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "normal": {
+        "added": [],
+        "edited": [
+            "mailsub__nexus_acp_notification_Transaction",
+            "mailsub__nexus_acp_notification_Shipment"
+        ],
+        "removed": []
+    },
+    "js": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

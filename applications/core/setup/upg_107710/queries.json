@@ -1,0 +1,161 @@
+{
+    "1": {
+        "method": "createTable",
+        "params": [
+            {
+                "name": "core_contact_verify",
+                "columns": {
+                    "email_address": {
+                        "name": "email_address",
+                        "type": "VARCHAR",
+                        "length": 255,
+                        "decimals": null,
+                        "values": null,
+                        "allow_null": false,
+                        "default": "",
+                        "comment": "",
+                        "unsigned": false,
+                        "auto_increment": false
+                    },
+                    "verify_key": {
+                        "name": "verify_key",
+                        "type": "VARCHAR",
+                        "length": 255,
+                        "decimals": null,
+                        "values": null,
+                        "allow_null": false,
+                        "default": "",
+                        "comment": "",
+                        "unsigned": false,
+                        "auto_increment": false
+                    },
+                    "verify_time": {
+                        "name": "verify_time",
+                        "type": "BIGINT",
+                        "length": null,
+                        "decimals": null,
+                        "values": null,
+                        "allow_null": false,
+                        "default": 0,
+                        "comment": "",
+                        "unsigned": false,
+                        "auto_increment": false
+                    },
+                    "contact_data": {
+                        "name": "contact_data",
+                        "type": "MEDIUMTEXT",
+                        "length": 0,
+                        "decimals": null,
+                        "values": [],
+                        "allow_null": false,
+                        "default": null,
+                        "comment": "",
+                        "unsigned": false,
+                        "auto_increment": false
+                    }
+                },
+                "indexes": {
+                    "PRIMARY": {
+                        "type": "primary",
+                        "name": "PRIMARY",
+                        "columns": [
+                            "email_address"
+                        ],
+                        "length": [
+                            250
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "2": {
+        "method": "changeColumn",
+        "params": [
+            "core_sessions",
+            "location_permissions",
+            {
+                "name": "location_permissions",
+                "type": "TEXT",
+                "length": 1024,
+                "decimals": null,
+                "values": [],
+                "allow_null": true,
+                "default": null,
+                "comment": "",
+                "unsigned": false,
+                "auto_increment": false
+            }
+        ]
+    },
+    "3": {
+        "method": "createTable",
+        "params": [
+            {
+                "name": "core_hive_subscribers",
+                "columns": {
+                    "member_id": {
+                        "name": "member_id",
+                        "type": "BIGINT",
+                        "length": "20",
+                        "decimals": null,
+                        "values": null,
+                        "allow_null": false,
+                        "default": 0,
+                        "comment": "ID Number",
+                        "unsigned": true,
+                        "auto_increment": false
+                    },
+                    "subscribe_date": {
+                        "name": "subscribe_date",
+                        "type": "INT",
+                        "length": null,
+                        "decimals": null,
+                        "values": null,
+                        "allow_null": false,
+                        "default": 0,
+                        "comment": "",
+                        "unsigned": false,
+                        "auto_increment": false
+                    },
+                    "subscribe_confirmed": {
+                        "name": "subscribe_confirmed",
+                        "type": "TINYINT",
+                        "length": null,
+                        "decimals": null,
+                        "values": null,
+                        "allow_null": false,
+                        "default": 0,
+                        "comment": "",
+                        "unsigned": false,
+                        "auto_increment": false
+                    }
+                },
+                "indexes": {
+                    "PRIMARY": {
+                        "type": "primary",
+                        "name": "PRIMARY",
+                        "columns": [
+                            "member_id"
+                        ],
+                        "length": [
+                            null
+                        ]
+                    },
+                    "subcribeconfirmed": {
+                        "type": "key",
+                        "name": "subcribeconfirmed",
+                        "columns": [
+                            "subscribe_confirmed",
+                            "subscribe_date"
+                        ],
+                        "length": [
+                            null,
+                            null
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

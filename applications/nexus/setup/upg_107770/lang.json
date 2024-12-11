@@ -1,0 +1,15 @@
+{
+    "normal": {
+        "added": [
+            "nexus_prune_history",
+            "nexus_prune_history_desc"
+        ],
+        "edited": [],
+        "removed": []
+    },
+    "js": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

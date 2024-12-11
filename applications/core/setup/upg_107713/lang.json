@@ -1,0 +1,17 @@
+{
+    "normal": {
+        "added": [
+            "block_communityhive_display",
+            "block_communityhive_admin_message"
+        ],
+        "edited": [
+            "block_communityhive_desc"
+        ],
+        "removed": []
+    },
+    "js": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

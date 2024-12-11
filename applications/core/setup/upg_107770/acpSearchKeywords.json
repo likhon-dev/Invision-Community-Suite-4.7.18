@@ -1,0 +1,9 @@
+{
+    "added": [
+        "app=core&module=membersettings&controller=profiles&tab=profilesettings&searchResult=nexus_prune_history"
+    ],
+    "edited": [
+        "app=core&module=membersettings&controller=profiles&tab=profilesettings&searchResult=prune_member_history"
+    ],
+    "removed": []
+}

@@ -1,0 +1,111 @@
+{
+    "1": {
+        "method": "addColumn",
+        "params": [
+            "cms_pages",
+            {
+                "name": "page_views",
+                "type": "INT",
+                "length": null,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": false,
+                "auto_increment": false
+            }
+        ]
+    },
+    "2": {
+        "method": "addColumn",
+        "params": [
+            "cms_database_categories",
+            {
+                "name": "category_club_id",
+                "type": "BIGINT",
+                "length": null,
+                "decimals": null,
+                "values": null,
+                "allow_null": true,
+                "default": null,
+                "comment": "",
+                "unsigned": true,
+                "auto_increment": false
+            }
+        ]
+    },
+    "3": {
+        "method": "addColumn",
+        "params": [
+            "cms_database_categories",
+            {
+                "name": "category_club_view_permission",
+                "type": "VARCHAR",
+                "length": 500,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": "*",
+                "comment": "",
+                "unsigned": false,
+                "auto_increment": false
+            }
+        ]
+    },
+    "4": {
+        "method": "addColumn",
+        "params": [
+            "cms_database_categories",
+            {
+                "name": "category_club_category_meta_index",
+                "type": "TINYINT",
+                "length": 0,
+                "decimals": null,
+                "values": [],
+                "allow_null": true,
+                "default": "1",
+                "comment": "",
+                "unsigned": true,
+                "auto_increment": false
+            }
+        ]
+    },
+    "5": {
+        "method": "addColumn",
+        "params": [
+            "cms_databases",
+            {
+                "name": "database_allow_club_categories",
+                "type": "TINYINT",
+                "length": null,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "Whether this database will allow club categories",
+                "unsigned": true,
+                "auto_increment": false
+            }
+        ]
+    },
+    "6": {
+        "method": "changeIndex",
+        "params": [
+            "cms_database_categories",
+            "category_database_id",
+            {
+                "type": "key",
+                "name": "category_database_id",
+                "columns": [
+                    "category_database_id",
+                    "category_club_id"
+                ],
+                "length": [
+                    null,
+                    null
+                ]
+            }
+        ]
+    }
+}

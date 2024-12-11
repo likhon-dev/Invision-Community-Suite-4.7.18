@@ -1,0 +1,24 @@
+{
+    "html": {
+        "added": [
+            "global\/embed\/embedCommentUnavailable",
+            "admin\/global\/userLinkWithPhoto"
+        ],
+        "edited": [
+            "global\/forms\/radio",
+            "admin\/members\/warningTime",
+            "admin\/tables\/table"
+        ],
+        "removed": []
+    },
+    "css": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    },
+    "resources": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "normal": {
+        "added": [
+            "validate_invalid_security_key",
+            "lostpass_invalid_security_key",
+            "api__log_blurb_change",
+            "api__log_blurb_change_cloud",
+            "api_log_prune_failures",
+            "api_log_prune_failures_desc",
+            "api__log_no_cloud",
+            "mfa_recovery_verify",
+            "mfavalidate_invalid_security_key",
+            "cookie_codeVerifier_description"
+        ],
+        "edited": [
+            "prune_member_history_desc",
+            "api_log_prune",
+            "cookie_member_id_description",
+            "cookie_language_description",
+            "cookie_guestTermsDismissed_description"
+        ],
+        "removed": [
+            "api_log_blurb_change",
+            "menu__core_communityhive",
+            "menu__core_communityhive_settings",
+            "enhancements__core_Hive",
+            "enhancements__core_Hive_desc",
+            "communityhive_enhancements_configure",
+            "module__core_hive",
+            "hive_enable_hive_title",
+            "hive_enable_hive_blurb",
+            "hive_community_name",
+            "hive_community_name_desc",
+            "hive_email_address",
+            "hive_email_address_desc",
+            "hive_choose_content",
+            "hive_choose_content_blurb",
+            "hive_content_classes",
+            "hive_activated_blurb",
+            "hive_continue_activation",
+            "hive_subscribe_to_hive",
+            "hive_subscribe_blurb",
+            "hive_subscribe_blurb2",
+            "hive_subscribe_button",
+            "hive_subscriber_email_address",
+            "hive_follow_anonymously",
+            "hive_anonymously_desc",
+            "hive_anonymous_button",
+            "hive_privacy_policy",
+            "hive_link",
+            "block_communityHiveFollow",
+            "block_communityHiveFollow_desc",
+            "block_communityhive",
+            "block_communityhive_display",
+            "block_communityhive_desc",
+            "block_communityhive_follow",
+            "block_communityhive_follow_short",
+            "block_communityhive_admin_message"
+        ]
+    },
+    "js": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

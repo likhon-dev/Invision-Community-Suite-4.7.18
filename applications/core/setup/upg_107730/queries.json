@@ -1,0 +1,22 @@
+{
+    "1": {
+        "method": "delete",
+        "params": [
+            "core_sys_conf_settings",
+            [
+                "conf_app =? and conf_key =?",
+                "core",
+                "twitter_hashtag"
+            ]
+        ]
+    },
+    "2": {
+        "method": "update",
+        "params": [
+            "core_members",
+            {
+                "permission_array": null
+            }
+        ]
+    }
+}

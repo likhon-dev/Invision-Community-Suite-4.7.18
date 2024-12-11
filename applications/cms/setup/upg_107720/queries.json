@@ -1,0 +1,20 @@
+{
+    "1": {
+        "method": "addColumn",
+        "params": [
+            "cms_databases",
+            {
+                "name": "database_comments_perpage",
+                "type": "TINYINT",
+                "length": null,
+                "decimals": null,
+                "values": null,
+                "allow_null": false,
+                "default": 0,
+                "comment": "",
+                "unsigned": false,
+                "auto_increment": false
+            }
+        ]
+    }
+}

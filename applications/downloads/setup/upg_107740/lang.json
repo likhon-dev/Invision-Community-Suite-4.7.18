@@ -1,0 +1,19 @@
+{
+    "normal": {
+        "added": [
+            "modlog__action_restorebackup_stats",
+            "modlog__action_visibilitybackup_stats",
+            "modlog__action_deletebackup_stats",
+            "modlog__action_purchasestatus_stats",
+            "modlog__action_newversion_reject_stats",
+            "modlog__action_newversion_approved_stats"
+        ],
+        "edited": [],
+        "removed": []
+    },
+    "js": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

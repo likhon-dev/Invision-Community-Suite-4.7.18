@@ -1,0 +1,21 @@
+{
+    "html": {
+        "added": [],
+        "edited": [
+            "front\/global\/manageFollowNodeRow",
+            "front\/index\/forumGridItem",
+            "front\/index\/forumRow"
+        ],
+        "removed": []
+    },
+    "css": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    },
+    "resources": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

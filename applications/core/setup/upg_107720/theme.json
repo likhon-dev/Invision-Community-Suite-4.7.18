@@ -1,0 +1,50 @@
+{
+    "html": {
+        "added": [
+            "front\/sharelinks\/x"
+        ],
+        "edited": [
+            "admin\/applications\/appRowAdditional",
+            "admin\/applications\/pluginVersionData",
+            "front\/clubs\/directory",
+            "admin\/customization\/langRowAdditional",
+            "admin\/customization\/themeRowTitle",
+            "front\/global\/siteSocialProfiles",
+            "front\/profile\/allFollowers",
+            "admin\/support\/thirdPartyItems"
+        ],
+        "removed": [
+            "admin\/marketplace\/categoryIndex",
+            "admin\/marketplace\/customHeader",
+            "admin\/marketplace\/dashboard",
+            "admin\/marketplace\/fileCard",
+            "admin\/marketplace\/fileCardList",
+            "admin\/marketplace\/fileCardMini",
+            "admin\/marketplace\/fileChangelogGrid",
+            "admin\/marketplace\/fileView",
+            "admin\/marketplace\/onboardRow",
+            "admin\/marketplace\/onboardSearch",
+            "admin\/marketplace\/onboardTemplate",
+            "admin\/marketplace\/removalBanner",
+            "admin\/marketplace\/termsAndConditions",
+            "admin\/notifications\/marketplaceSetup",
+            "front\/sharelinks\/twitter"
+        ]
+    },
+    "css": {
+        "added": [],
+        "edited": [
+            "front\/core.css"
+        ],
+        "removed": [
+            "admin\/marketplace\/marketplace.css"
+        ]
+    },
+    "resources": {
+        "added": [
+            "global\/logos\/x.svg"
+        ],
+        "edited": [],
+        "removed": []
+    }
+}

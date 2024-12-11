@@ -1,0 +1,29 @@
+{
+    "html": {
+        "added": [
+            "front\/system\/contactFormReferrer"
+        ],
+        "edited": [
+            "global\/forms\/editorRaw",
+            "global\/forms\/text",
+            "front\/global\/error",
+            "front\/global\/footer",
+            "global\/global\/includeMeta",
+            "front\/global\/thumbImage",
+            "front\/profile\/allFollowers",
+            "front\/profile\/hovercard",
+            "front\/system\/coppaForm"
+        ],
+        "removed": []
+    },
+    "css": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    },
+    "resources": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "id": 107711,
+    "name": "4.7.13 Beta 2",
+    "steps": {
+        "queries": false,
+        "lang": true,
+        "theme": true,
+        "themeSettings": false,
+        "javascript": false,
+        "emailTemplates": false,
+        "hooks": false,
+        "acpSearchKeywords": false,
+        "settings": false,
+        "tasks": false,
+        "modules": false,
+        "widgets": true,
+        "customOptions": false,
+        "customRoutines": false
+    },
+    "forceMainUpgrader": false,
+    "forceManualDownloadNoCiC": false,
+    "forceManualDownloadCiC": false
+}

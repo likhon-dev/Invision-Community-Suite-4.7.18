@@ -1,0 +1,42 @@
+{
+    "html": {
+        "added": [
+            "front\/hive\/follow",
+            "front\/hive\/followButton",
+            "front\/hive\/signin",
+            "admin\/hive\/wrapper",
+            "admin\/marketplace\/removalBanner",
+            "admin\/spam\/spamGeoSettings",
+            "front\/system\/contactConfirmVerify",
+            "front\/system\/contactVerify",
+            "front\/widgets\/communityhive"
+        ],
+        "edited": [
+            "admin\/applications\/enhancements",
+            "global\/forms\/text",
+            "front\/global\/comment",
+            "front\/global\/follow",
+            "front\/global\/footer",
+            "front\/global\/review",
+            "admin\/marketplace\/customHeader",
+            "front\/system\/followForm"
+        ],
+        "removed": []
+    },
+    "css": {
+        "added": [],
+        "edited": [
+            "front\/core.css"
+        ],
+        "removed": []
+    },
+    "resources": {
+        "added": [
+            "admin\/enhancements\/communityhive.svg",
+            "front\/hive\/communityhive.svg",
+            "front\/hive\/logo_on_white_background.png"
+        ],
+        "edited": [],
+        "removed": []
+    }
+}

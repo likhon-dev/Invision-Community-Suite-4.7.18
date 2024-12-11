@@ -1,0 +1,13 @@
+{
+    "added": [
+        "api_log_prune_failures"
+    ],
+    "edited": [],
+    "removed": [
+        "hive_content",
+        "hive_enabled",
+        "hive_key",
+        "hive_site_id",
+        "hive_site_key"
+    ]
+}

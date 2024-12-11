@@ -1,0 +1,17 @@
+{
+    "files": {
+        "added": [],
+        "edited": [],
+        "removed": [
+            "core\/admin\/controllers\/marketplace\/ips.marketplace.launcher.js",
+            "core\/admin\/controllers\/marketplace\/ips.marketplace.onboard.js",
+            "core\/admin\/controllers\/marketplace\/ips.marketplace.onboardRow.js",
+            "core\/admin\/controllers\/marketplace\/ips.marketplace.search.js"
+        ]
+    },
+    "orders": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

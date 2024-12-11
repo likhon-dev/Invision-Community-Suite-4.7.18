@@ -1,0 +1,15 @@
+{
+    "normal": {
+        "added": [
+            "convert_calendar_rsvps",
+            "_convert_calendar_rsvps"
+        ],
+        "edited": [],
+        "removed": []
+    },
+    "js": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

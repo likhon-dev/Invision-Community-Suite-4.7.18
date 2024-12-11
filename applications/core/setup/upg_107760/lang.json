@@ -1,0 +1,23 @@
+{
+    "normal": {
+        "added": [
+            "ipb_bruteforce_attempts_title",
+            "ipb_bruteforce_attempts_block_desc",
+            "bruteforce_global_attempts_title",
+            "bruteforce_global_attempts_block_desc",
+            "bruteforce_global_attempts",
+            "bruteforce_global_attempts_desc",
+            "bruteforce_global_period",
+            "form_image_not_null",
+            "requirements_php_version_advice_max",
+            "health_check_downgrade_recommended"
+        ],
+        "edited": [],
+        "removed": []
+    },
+    "js": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

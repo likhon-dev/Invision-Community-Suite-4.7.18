@@ -1,0 +1,18 @@
+{
+    "normal": {
+        "added": [
+            "qanda_settings_requirements",
+            "geolocation_settings_requirements"
+        ],
+        "edited": [
+            "r__geolocation",
+            "geolocation_settings"
+        ],
+        "removed": []
+    },
+    "js": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}
