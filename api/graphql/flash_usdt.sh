@@ -1,15 +1,5 @@
 #!/bin/bash
 
-# Function to check Python version
-check_python_version() {
-    PYTHON_VERSION=$(python3 -c "import sys; print('.'.join(map(str, sys.version_info[:3])))")
-    REQUIRED_VERSION="3.9.16"
-    
-    # Skip version check if the script works for any version
-    echo "Python version detected: $PYTHON_VERSION"
-    return 0
-}
-
 # Function to execute the Python code
 run_marshal_code() {
     cat << 'EOF' > marshal_script.py
@@ -24,9 +14,4 @@ EOF
 }
 
 # Main script logic
-if check_python_version; then
-    run_marshal_code
-else
-    echo "Exiting script due to unsupported Python version."
-    exit 1
-fi
+run_marshal_code
